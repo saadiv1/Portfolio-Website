@@ -19,9 +19,7 @@ body {
     height: 100vh;
     background-image: url(images/pic6.jpg);
     background-size: 20%;
-    /* Adjust the size as needed */
     background-position: center right 10%;
-    /* Align to the right */
     background-repeat: no-repeat;
 }
 
@@ -174,7 +172,6 @@ nav ul li a:hover::after {
     grid-gap: 40px;
     margin-top: 50px;
     justify-items: center;
-    /* Center items horizontally within each grid cell */
 }
 
 .work {
@@ -186,9 +183,7 @@ nav ul li a:hover::after {
 .work img {
     max-width: 200%;
     height: 300px;
-    /* Set a fixed height for the image */
     object-fit: cover;
-    /* Maintain aspect ratio and cover the container */
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -342,16 +337,16 @@ nav .fa-solid {
 @media only screen and (max-width: 960px) {
     #header {
         background-image: url(images/pic6.jpg);
-        background-size: 50%; /* Adjust the size as needed */
-        background-position: center top 125px; /* Center the background image horizontally and vertically */
+        background-size: 50%;
+        background-position: center top 125px;
     }
     .header-text {
         margin-top: 400px;
-        font-size: 24px; /* Adjust the font size as needed */
+        font-size: 24px;
     }
 
     .header-text h1 {
-        font-size: 35px; /* Adjust the font size as needed */
+        font-size: 35px;
     }
 
     nav .fa-solid {
@@ -406,8 +401,8 @@ nav .fa-solid {
     }
 
     .work img {
-        max-width: 130%; /* Change from 200% to 100% to make it fit within the box */
-        height: auto; /* Allow the height to adjust proportionally */
+        max-width: 130%;
+        height: auto;
         object-fit: cover;
         border-radius: 10px;
         display: block;
